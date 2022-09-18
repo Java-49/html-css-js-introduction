@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(55, 55, 55);   
+}
+.topheader{
+    text-align:center;
+}
+.main-block{
+    margin: auto;
+    width: fit-content;
+    }
+.ancor{
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(44, 41, 87);
+}
+.ancor > img{
+    width: 50px;
+    height: auto; 
+    margin-bottom: -12px; 
+    margin-right: 18px;  
+}
