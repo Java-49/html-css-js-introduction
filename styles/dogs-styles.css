@@ -1,0 +1,42 @@
+
+.logo  {
+font-size: 3em;
+}
+
+.main-class {
+
+}
+.details-container {
+
+}
+.details-image {
+width: 700px;
+height: 450px;
+
+}
+.details-title {
+display: block;
+font-size: 20px;
+}
+.thumbnails-list {
+list-style: none;
+padding: 0;
+
+}
+.thumbnails-item {
+
+}
+.thumbnail-image {
+width: 350px;
+height: 350px;
+}
+.thumbnails-title {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block; 
+    font-size: 20px;
+    font-weight: 200;
+}
+.thumbnails-anchor {
+   
+}
+
