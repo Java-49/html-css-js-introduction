@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    margin: 50px auto;
+    width: 85vw;
+    border: 1px solid #ccc;
+}
+.board-row {
+    width: 100%;    
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.cell-black, .cell-white {
+    width: 12.5vw;
+    aspect-ratio: 1/1;
+}
+
+.cell-black {
+    background-color: black;
+}
+.cell-white {
+    background-color: aliceblue;
+}
+
+@media (min-width: 560px) {
+.board {
+    width: 85vh;
+}
+}
+@media (min-width: 320px) {
+.board {
+    width: 65vh;
+}
+}
+
