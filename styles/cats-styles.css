@@ -1,8 +1,29 @@
+@font-face {
+    font-family: lakeshore;
+    src: url("fonts/LAKESHOR-webfont.svg");
+    src: url("fonts/LAKESHOR-webfont.woff");
+}
+
+@font-face {
+    font-family: airstream;
+    src: url("fonts/Airstream-webfont.svg");
+    src: url("fonts/Airstream-webfont.woff");
+}
+
+:root {
+    --thumbnails-img-width: 20vw;
+    --thumbnails-img-height: 15vw;
+    --thumbnails-title-height: calc(var(--thumbnails-img-height)* 0.33)
+}
+
+body, html {height: 100%;}
+
 body {
     display: flex; 
     flex-direction:column;
     background-color: white;
  }
+ 
  .logo  {
  font-size: 2em;
  background-color: rgb(197, 140, 71);
