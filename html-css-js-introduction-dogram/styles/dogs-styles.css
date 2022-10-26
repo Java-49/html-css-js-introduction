@@ -58,6 +58,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 10vh;
+    transition: 5s cubic-bezier(0.1, 1.5, 0.9, 0.001);
 
 
 }
@@ -140,6 +141,11 @@ body {
 .thumbnails-item:hover {
     transform: scale(1.1);
     margin-left: 1vw;
+}
+
+.is-point {
+transform: scale(0.001);
+transition: 3s;
 }
 
 @media(min-width: 560px) {
